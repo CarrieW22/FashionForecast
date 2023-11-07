@@ -13,8 +13,8 @@ app.use(cors({
 const PORT = 5000;
 
 
-mongoose.connect("ADD Link HERE", {
-  useNewUrlParser: true,
+mongoose.connect("mongodb+srv://cgw2:iMW4epuOrfQindW3@cluster0.najaasc.mongodb.net/Weatherapp", {
+   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
 
